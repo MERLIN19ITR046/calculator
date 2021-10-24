@@ -21,7 +21,7 @@ function calculateBMI(){
 
 
          if(bmi < 18.5){
-             result.innerHTML = `Your BMI: <span>(Under Weight)</span>`;
+             result.innerHTML = `Your BMI: <span>${bmi}(Under Weight)</span>`;
          }else if(bmi >= 18.5 && bmi <=24.9){
             result.innerHTML = `Your BMI: <span>${bmi}(Healthy)</span>`;
          } else if(bmi >24.9 && bmi <=29.9){
